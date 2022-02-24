@@ -3,4 +3,4 @@ imports:
 
 services:
     PhpCsFixer\Fixer\Comment\HeaderCommentFixer:
-        header: "This file is part of [package name].\n\n(c) John Doe\n\n@license LGPL-3.0-or-later"
+        header: "This file is part of mystr.\n\n(c) Daniel Selinger\n\n@license LGPL-3.0-or-later"

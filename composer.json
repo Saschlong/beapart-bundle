@@ -1,17 +1,11 @@
 {
-    "name": "contao/skeleton-bundle",
+    "name": "mystr/beapart-bundle",
     "type": "contao-bundle",
-    "description": "Skeleton for custom Contao 4 bundles",
-    "homepage": "https://contao.org",
     "license": "LGPL-3.0-or-later",
     "authors": [
         {
-            "name": "Leo Feyer",
-            "homepage": "https://github.com/leofeyer"
-        },
-        {
-            "name": "Contao Community",
-            "homepage": "https://contao.org/contributors"
+            "name": "Daniel Selinger",
+            "homepage": "https://dselinger.biz"
         }
     ],
     "require": {
@@ -31,21 +25,17 @@
         "symfony/phpunit-bridge": "^4.4 || ^5.1"
     },
     "extra": {
-        "contao-manager-plugin": "Contao\\SkeletonBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "Mystr\\BeapartBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
-            "Contao\\SkeletonBundle\\": "src/"
+            "Mystr\\BeapartBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Contao\\SkeletonBundle\\Tests\\": "tests/"
+            "Mystr\\BeapartBundle\\Tests\\": "tests/"
         }
-    },
-    "support": {
-        "issues": "https://github.com/contao/skeleton-bundle/issues",
-        "source": "https://github.com/contao/skeleton-bundle"
     },
     "scripts": {
         "cs-fixer": [

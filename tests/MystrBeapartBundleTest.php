@@ -10,17 +10,18 @@ declare(strict_types=1);
  * @license LGPL-3.0-or-later
  */
 
-namespace Contao\SkeletonBundle\Tests;
+namespace Mystr\BeapartBundle\Tests;
 
 use Contao\SkeletonBundle\ContaoSkeletonBundle;
+use Mystr\BeapartBundle\MystrBeapartBundle;
 use PHPUnit\Framework\TestCase;
 
-class ContaoSkeletonBundleTest extends TestCase
+class MystrBeapartBundleTest extends TestCase
 {
     public function testCanBeInstantiated(): void
     {
-        $bundle = new ContaoSkeletonBundle();
+        $bundle = new MystrBeapartBundle();
 
-        $this->assertInstanceOf('Contao\SkeletonBundle\ContaoSkeletonBundle', $bundle);
+        $this->assertInstanceOf('Mystr\BeapartBundle\MystrBeapartBundle', $bundle);
     }
 }
